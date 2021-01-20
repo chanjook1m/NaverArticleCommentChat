@@ -63,3 +63,4 @@ class Window(QMainWindow, board_form):
         for comment in data:
             self.commentsList.addItem(comment)
         self.commentProgress.setValue(100)
+        self.commentsList.scrollToBottom()
